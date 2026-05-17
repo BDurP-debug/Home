@@ -1,22 +1,16 @@
-body{
+body {
     background-color: aquamarine;
     font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;;
-    display:flex
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
-h1{background-color: blueviolet;
 
+h1 {
+    background-color: blueviolet;
 }
-.cajita1{
-    border-width: 8px;
-    border: solid;
+
+.cajita1, .cajita2 {
+    border: 8px solid black;
     background-color: darkcyan;
-}
-br{
-    line-height: 20px;
-}
-.cajita2{
-    border-width: 8px;
-    border: solid;
-    background-color: darkcyan;
+    margin-bottom: 20px;
 }
