@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Pagina web bddp</title>
+    <style>
+      /* ===== ESTILOS ===== */
+      body {
+          background-color: #0d0d0d;    /* Fondo negro para resaltar los neones */
+          font-size: 12px;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+
+      p {
+          color: #00ffff;               /* Texto neón cian */
+          text-shadow:
+              0 0 5px #00ffff,          /* Brillo cercano */
+              0 0 15px #00ffff,         /* Brillo medio */
+              0 0 30px #00ffff;         /* Resplandor lejano */
+      }
+
+      h1 {
+          color: #ff00ff;               /* Texto neón magenta */
+          width: fit-content;           /* El fondo se ajusta al texto */
+          text-shadow:
+              0 0 5px #ff00ff,          /* Brillo cercano */
+              0 0 15px #ff00ff,         /* Brillo medio */
+              0 0 40px #ff00ff;         /* Resplandor lejano */
+      }
+
+      h2 {
+          color: #00ff00;               /* Texto neón verde */
+          text-shadow:
+              0 0 5px #00ff00,          /* Brillo cercano */
+              0 0 15px #00ff00,         /* Brillo medio */
+              0 0 30px #00ff00;         /* Resplandor lejano */
+      }
+
+      .cajita1, .cajita2 {
+          border: 2px solid #ff6600;    /* Borde neón naranja */
+          box-shadow:
+              0 0 5px #ff6600,          /* Brillo cercano del borde */
+              0 0 5px #ff6600;         /* Resplandor del borde */
+          background-color: #1a0033;    /* Fondo morado oscuro */
+          margin-bottom: 2px;
+          width: fit-content;
+      }
+
+      .cajita1 img, .cajita2 img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+          display: block;
+          filter: saturate(150%);       /* Aumenta la saturación de las imágenes */
+      }
+    </style>
+  </head>
+  <body>
+
+    <p>Mi primera pagina web</p>
+    <h1>Bienvenido</h1>
+    <h2>A mi primer proyecto</h2>
+
+    <div class="cajita1">
+      <img src="imagen-1.jpeg" alt="Imagen 1">
+    </div>
+
+    <div class="cajita2">
+      <img src="imagen-2.jpg" alt="Imagen 2">
+    </div>
+
+  </body>
+</html>

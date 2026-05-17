@@ -2,23 +2,55 @@
 <html lang="es">
   <head>
     <title>Pagina web bddp</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+      /* ===== ESTILOS ===== */
+      body {
+          background-color: aquamarine; /* Color de fondo de toda la página */
+          font-size: 12px;              /* Tamaño base del texto */
+          font-family: Arial, Helvetica, sans-serif; /* Fuente principal */
+          /* Se eliminó display:flex para que los elementos vayan de arriba a abajo */
+      }
+
+      h1 {
+          background-color:#ff00ff;; /* Color de fondo del encabezado h1 */
+          width: fit-content;          /* El encabezado se ajusta al tamaño del texto */
+      }
+
+      /* Cajita1 y cajita2 comparten los mismos estilos */
+      .bastian {
+        border: 1px solid rgb(6, 110, 221);     /* Borde de 8px sólido negro */
+          background-color: darkcyan;  /* Color de fondo de las cajas */
+          margin-bottom: 20px;         /* Espacio debajo de cada caja */
+          width: fit-content;          /* La caja se ajusta al tamaño de la imagen */
+      }
+      
+      .cajita2 {
+          border: 1px solid black;     /* Borde de 8px sólido negro */
+          background-color: darkcyan;  /* Color de fondo de las cajas */
+          margin-bottom: 2px;         /* Espacio debajo de cada caja */
+          width: fit-content;          /* La caja se ajusta al tamaño de la imagen */
+      }
+
+      /* Las imágenes se reducen a 200px */
+      .bastian img, .cajita2 img {
+          width: 100%;                /* Ancho fijo para ambas imágenes */
+          height: 150px;               /* Alto fijo para ambas imágenes */
+          object-fit: cover;           /* Recorta sin deformar */
+          display: block;              /* Elimina el espacio extra debajo de la imagen */
+      }
+    </style>
   </head>
   <body>
 
-    <p>Mi primera pagina web</p>
+    <p>Mi primera pagina web</p>      <!-- Párrafo de texto -->
+    <h1>Bienvenido</h1>               <!-- Encabezado principal -->
+    <h2>A mi primer proyecto</h2>     <!-- Encabezado secundario -->
 
-    <h1>Bienvenido</h1>
-    <h2>A mi primer proyecto</h2>
-
-    <div class="cajita1">
+    <div class="bastian">             <!-- Contenedor imagen 1 (arriba) -->
       <img src="imagen-1.jpeg" alt="Imagen 1">
     </div>
 
-    <br>
-    <br>
-
-    <div class="cajita2">
+    <div class="cajita2">             <!-- Contenedor imagen 2 (abajo) -->
       <img src="imagen-2.jpg" alt="Imagen 2">
     </div>
 
